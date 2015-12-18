@@ -5,18 +5,18 @@
 //  Created by yuhao on 15/6/15.
 //  Copyright (c) 2015年 yuhao. All rights reserved.
 //
-#import "ViewController.h"
+#import "PodDemoViewController.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCryptor.h>
 #import <QuickUnifyPlatform/QuickUnifyPlatform.h>
-@interface ViewController ()
+@interface PodDemoViewController ()
 {
     NSString * _guid;
 }
 
 @end
 
-@implementation ViewController
+@implementation PodDemoViewController
 
 
 - (NSString *) qupMD5Hash :(NSString *)str{

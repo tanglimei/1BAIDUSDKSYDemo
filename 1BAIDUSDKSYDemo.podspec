@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "1BAIDUSDKSYDemo"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "The first one test framework."
   s.description  = <<-DESC
                   I will be very careful to do this framework.
@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "tanglimei" => "562630424@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/tanglimei/1BAIDUSDKSYDemo.git", :tag => "0.0.3" }
-  s.source_files  =  "Common/Source/**/*.{h,m}","Common/SDK/Platform/BAIDUSDK/SYFramework/QuickUnifyPlatform.framework/Headers/*.h"
-  s.resources = ["Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/NdComPlatform_SNS_Resources.bundle",Common/SDK/Platform/BAIDUSDK/Plist/*.plist]
+  s.source       = { :git => "https://github.com/tanglimei/1BAIDUSDKSYDemo.git", :tag => "0.0.4" }
+  s.source_files  = "Common/Source/**/*.{h,m}","Common/SDK/Platform/BAIDUSDK/SYFramework/QuickUnifyPlatform.framework/Headers/*.h"
+  s.resources = ["Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/NdComPlatform_SNS_Resources.bundle","Common/SDK/Platform/BAIDUSDK/Plist/*.plist"]
   s.frameworks = "AssetsLibrary", "AdSupport","MessageUI","UIKit","Foundation","CoreGraphics","QuartzCore","SystemConfiguration","AddressBook","CoreTelephony"
   s.libraries = "z","sqlite3","stdc++"
   s.requires_arc = true

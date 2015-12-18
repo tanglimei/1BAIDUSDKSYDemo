@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 yuhao. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "PodDemoAppDelegate.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCryptor.h>
 #import <QuickUnifyPlatform/QuickUnifyPlatform.h>
-@interface AppDelegate ()
+@interface PodDemoAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation PodDemoAppDelegate
 
 //- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 //{
