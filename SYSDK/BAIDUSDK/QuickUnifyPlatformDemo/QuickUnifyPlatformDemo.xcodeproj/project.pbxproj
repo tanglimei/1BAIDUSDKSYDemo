@@ -498,8 +498,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hong Bo Zhao (6BZJZ6L627)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hong Bo Zhao (6BZJZ6L627)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +514,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juedifanji.baidu91;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "227c2373-cc0f-441f-8ae0-94fecf885383";
+				PROVISIONING_PROFILE = "c86b3434-50fb-4c5a-877a-b29a60f6f875";
 				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
@@ -524,8 +524,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hong Bo Zhao (6BZJZ6L627)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hong Bo Zhao (6BZJZ6L627)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: junfeng lu (LYHH2EXUZ3)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -539,7 +539,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juedifanji.baidu91;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "227c2373-cc0f-441f-8ae0-94fecf885383";
+				PROVISIONING_PROFILE = "c86b3434-50fb-4c5a-877a-b29a60f6f875";
 				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
