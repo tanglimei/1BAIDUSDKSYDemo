@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "1BAIDUSDKSYDemo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "The first one test framework."
   s.description  = <<-DESC
                   I will be very careful to do this framework.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "tanglimei" => "562630424@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/tanglimei/1BAIDUSDKSYDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/tanglimei/1BAIDUSDKSYDemo.git", :tag => "0.0.2" }
   s.source_files  = "Common/SDK/Platform/BAIDUSDK/Plist/*.plist", "Common/Source/**/*.{h,m}","Common/SDK/Platform/BAIDUSDK/SYFramework/QuickUnifyPlatform.framework/Headers/*.h"
   s.resources = ["Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/NdComPlatform_SNS_Resources.bundle"]
   s.frameworks = "AssetsLibrary", "AdSupport","MessageUI","UIKit","Foundation","CoreGraphics","QuartzCore","SystemConfiguration","AddressBook","CoreTelephony"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {
     "OTHER_LDFLAGS" => "-ObjC",
     "ENABLE_BITCODE" => "NO",
-    #"FRAMEWORK_SEARCH_PATHS" =>  "$(inherited)" "$(SRCROOT)/../../../Common/SDK/Platform/BAIDUSDK/SYFramework" "$(SRCROOT)/../../../Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/framework5" "$(SRCROOT)/../../../Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/framework5/framework"
+    "ONLY_ACTIVE_ARCH" => "NO"
   }
   s.ios.vendored_frameworks = "Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/framework5/*.framework","Common/SDK/Platform/BAIDUSDK/SDKSource/SDKFinal/framework5/framework/*.framework","Common/SDK/Platform/BAIDUSDK/SYFramework/QuickUnifyPlatform.framework"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
